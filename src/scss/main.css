@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f3f1f1;
+}
+
+.navbar-brand .navbar_logo_A {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1b0000;
+}
+
+.navbar-brand .logo_text1 {
+  font-size: 0.9rem;
+  color: #1b0000;
+  font-weight: 500;
+}
+
+.navbar-brand .navbar_logo_jain {
+  font-weight: 500;
+  color: red;
+  font-size: 0.9rem;
+}
+
+.navbar {
+  -webkit-box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.2);
+}
+
+#navbar_menu {
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 2%;
+}
+
+#navbar_menu li {
+  margin-left: 3rem;
+}
+
+#navbar_menu li a {
+  color: rgba(182, 100, 7, 0.993);
+  font-weight: 470;
+}
+
+#navbar_menu li a:hover {
+  color: #ff6325;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+#fas_icons {
+  width: 14rem;
+}
+
+#fas_icons .fab {
+  font-size: 1.5rem;
+  padding-left: 1.67rem;
+  color: black;
+}
+
+#fas_icons .fab:hover {
+  color: orange;
+}
+
+.banner_image {
+  -webkit-box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 3.9rem;
+}
+
+#aboutbox {
+  -webkit-box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+          box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+  width: 100%;
+  min-height: 10vh;
+  background-color: #fcfcfc;
+  margin: auto;
+  margin-top: 0.15rem;
+}
+
+#aboutbox .about {
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+#aboutbox .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox .about #aboutajudetails {
+  text-align: justify;
+  word-spacing: 0.1rem;
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+.mainpersons {
+  background-color: #f8f7f7;
+  -webkit-box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+          box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+}
+
+.mainpersons .mainpersonbox {
+  padding-top: 2rem;
+}
+
+.mainpersons .mainpersonbox .col-lg-4 {
+  text-align: center;
+}
+
+.mainpersons .mainpersonbox .col-lg-4 img {
+  width: 17rem;
+  border-radius: 50%;
+  height: 14rem;
+}
+
+.mainpersons .mainpersonbox .col-lg-4 .headname {
+  padding-top: 1rem;
+  color: rgba(182, 100, 7, 0.993);
+  font-size: 1.65rem;
+}
+
+.mainpersons .mainpersonbox .col-lg-4 .headdetail {
+  font-size: 0.9rem;
+}
+
+.main_person_button {
+  color: rgba(182, 100, 7, 0.993);
+  -webkit-box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.08);
+          box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.08);
+  background-color: #ececec;
+  border: 0.01rem solid rgba(182, 100, 7, 0.993);
+}
+
+.head_size {
+  font-size: 1.7rem;
+  color: rgba(182, 100, 7, 0.993);
+}
+
+#aboutbox_jgi {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+#aboutbox_jgi .about {
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+#aboutbox_jgi .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_jgi .about #aboutjgidetails {
+  text-align: justify;
+  font-size: large;
+  padding-top: 1rem;
+}
+
+#engineering_and_it {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#engineering_and_it .about {
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+#engineering_and_it .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#engineering_and_it .about #aboutajudetails {
+  text-align: justify;
+  font-size: large;
+  padding-top: 1rem;
+}
+
+#aboutbox_confrence {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_confrence .about {
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+#aboutbox_confrence .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_confrence .about #aboutajudetails {
+  text-align: justify;
+  font-size: large;
+  padding-top: 1rem;
+}
+
+.footer_box {
+  background-color: #ececec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  width: 100%;
+}
+
+.footer_box .credit1 {
+  width: 70rem;
+}
+
+.footer_box .credit2 {
+  width: 30rem;
+  float: right;
+  text-align: right;
+}
+
+.footer_box .rohit_color {
+  color: #ff3d02;
+}
+
+@media screen and (min-width: 1650px) {
+  .credit2 {
+    position: absolute;
+    right: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #fas_icons {
+    width: 11rem;
+  }
+  .fab {
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1033px) {
+  #fas_icons {
+    display: none;
+  }
+  .amitsir {
+    padding-top: 2rem;
+  }
+  .fab:hover {
+    color: orange;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner_image {
+    display: none;
+  }
+  #aboutbox {
+    margin-top: 5rem;
+  }
+  #aboutbox #aboutajuheading {
+    text-align: left;
+  }
+  .mainpersons .mainpersonbox .col-lg-4 img {
+    border-radius: 50%;
+    width: 13rem;
+    height: 10rem;
+  }
+  .footer_box {
+    height: 4.7rem;
+  }
+}
+
+#aboutbox_scopeofconfrence {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+  margin-top: 4.5rem;
+}
+
+#aboutbox_scopeofconfrence .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_scopeofconfrence .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_scopeofconfrence .about #aboutajudetails {
+  text-align: justify;
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_callforpapers {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_callforpapers .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_callforpapers .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_callforpapers .about #aboutajudetails {
+  text-align: justify;
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_science {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_science .about {
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_science .about #aboutajuheading {
+  text-align: left;
+  font-size: 1.5rem;
+  width: 100%;
+  color: #e43939;
+}
+
+#aboutbox_science .about #aboutajudetails {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_science .about #aboutajudetails ul {
+  list-style: disc;
+}
+
+#aboutbox_electronicsandcommunication {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_electronicsandcommunication .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_electronicsandcommunication .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_electronicsandcommunication .about #aboutajudetails {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_electronicsandcommunication {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_electronicsandcommunication .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_electronicsandcommunication .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_electronicsandcommunication .about #aboutajudetails {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_computerengg {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_computerengg .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_computerengg .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_computerengg .about #aboutajudetails {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_civilengg {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_civilengg .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_civilengg .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_civilengg .about #aboutajudetails {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_mechanicalengg {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_mechanicalengg .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_mechanicalengg .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_mechanicalengg .about #aboutajudetails {
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+#aboutbox_guidelines {
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: auto;
+}
+
+#aboutbox_guidelines .about {
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+#aboutbox_guidelines .about #aboutajuheading {
+  font-size: 1.5rem;
+  color: #e43939;
+}
+
+#aboutbox_guidelines .about #aboutajudetails {
+  text-align: justify;
+  font-size: large;
+  margin-top: 0.7rem;
+}
+
+.table_container {
+  width: 100%;
+}
+
+.imp_date {
+  margin-top: 4rem;
+}
+
+.on_top_button {
+  border: 2px solid black;
+  display: block;
+}
+
+.brochure {
+  margin-bottom: 2rem;
+  float: left;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// NAVBAR_STARS_HERE
+
+.navbar {
+  background-color: rgb(243, 241, 241);
+}
+
+.navbar-brand {
+  .navbar_logo_A {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(27, 0, 0);
+  }
+  .logo_text1 {
+    font-size: 0.9rem;
+    color: rgb(27, 0, 0);
+    font-weight: 500;
+  }
+  .navbar_logo_jain {
+    font-weight: 500;
+    color: red;
+    font-size: 0.9rem;
+  }
+}
+
+.navbar {
+  box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.2);
+}
+
+#navbar_menu {
+  width: 80%;
+  justify-content: center;
+  padding-left: 2%;
+  li {
+    margin-left: 3rem;
+    a {
+      color: rgba(182, 100, 7, 0.993);
+      font-weight: 470;
+    }
+    a:hover {
+      color: #ff6325;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+  }
+  // .active{
+  //   border: .01rem solid orange;
+  //   color: #ff6325;
+  // }
+}
+
+#fas_icons {
+  width: 14rem;
+  .fab {
+    font-size: 1.5rem;
+    padding-left: 1.67rem;
+    color: black;
+  }
+  .fab:hover {
+    color: orange;
+  }
+}
+
+// NAVBAR_ENDS_HERE
+
+// BANNER_IMAGE_START
+
+.banner_image {
+  box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 3.9rem;
+}
+
+// BANNER_IMAGE_ENDS
+
+// BODY STARTS HERE
+
+#aboutbox {
+  box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+  width: 100%;
+  min-height: 10vh;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  margin-top: 0.15rem;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      text-align: justify;
+      word-spacing: 0.1rem;
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+.mainpersons {
+  background-color: rgb(248, 247, 247);
+  box-shadow: -1px 14px 22px -3px rgba(199, 136, 19, 0.1);
+  .mainpersonbox {
+    padding-top: 2rem;
+    .col-lg-4 {
+      text-align: center;
+      img {
+        width: 17rem;
+        border-radius: 50%;
+        height: 14rem;
+      }
+
+      .headname {
+        padding-top: 1rem;
+        color: rgba(182, 100, 7, 0.993);
+        font-size: 1.65rem;
+      }
+
+      .headdetail {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+.main_person_button {
+  color: rgba(182, 100, 7, 0.993);
+  box-shadow: -1px 14px 22px -3px rgba(0, 0, 0, 0.08);
+  background-color: rgb(236, 236, 236);
+  border: 0.01rem solid rgba(182, 100, 7, 0.993);
+}
+
+.head_size {
+  font-size: 1.7rem;
+  color: rgba(182, 100, 7, 0.993);
+}
+
+// BODY_ENDS_HERE
+
+// ABOUT_PAGE_STARTS_HERE
+
+#aboutbox_jgi {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  margin-top: 5rem;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutjgidetails {
+      text-align: justify;
+      font-size: large;
+      padding-top: 1rem;
+    }
+  }
+}
+
+#engineering_and_it {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+
+  .about {
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      text-align: justify;
+      font-size: large;
+      padding-top: 1rem;
+    }
+  }
+}
+
+#aboutbox_confrence {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      text-align: justify;
+      font-size: large;
+      padding-top: 1rem;
+    }
+  }
+}
+
+// ABOUT_PAGE_ENDS_HERE
+
+// FOOTER_STARTS_HERE
+
+.footer_box {
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  // margin-top: 2rem;
+  height: 3rem;
+  width: 100%;
+  .credit1 {
+    width: 70rem;
+  }
+  .credit2 {
+    width: 30rem;
+    float: right;
+    text-align: right;
+  }
+  .rohit_color {
+    color: rgb(255, 61, 2);
+  }
+
+
+}
+
+// #footer_fab{
+//   border: 1px solid black;
+//   width:14rem;
+//   // position:absolute;
+//   .fab{
+//     font-size: 1.5rem;
+//     padding-left: 1.67rem;
+//     color: black;
+//   }
+  
+// }
+
+// FOOTER_ENDS_HERE
+
+// MEDIA_QUERY
+
+@media screen and (min-width: 1650px) {
+  .credit2 {
+    position: absolute;
+    right: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #fas_icons {
+    width: 11rem;
+  }
+
+  .fab {
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1033px) {
+  #fas_icons {
+    display: none;
+  }
+  .amitsir {
+    padding-top: 2rem;
+  }
+
+  .fab:hover {
+    color: orange;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .banner_image {
+    display: none;
+  }
+  #aboutbox {
+margin-top: 5rem;
+#aboutajuheading {
+  text-align: left;
+}
+}
+  .mainpersons .mainpersonbox .col-lg-4 {
+    img {
+      border-radius: 50%;
+      width: 13rem;
+      height: 10rem;
+    }
+
+
+
+  }
+
+  // .table{
+  //   width: 60%;
+  // }
+
+  .footer_box{
+    height: 4.7rem;
+  }
+}
+
+// MEDIA _QUERY_ENDS_HERE
+
+// SCOPE_PAGE_STARTS_HERE
+
+#aboutbox_scopeofconfrence {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  margin-top: 4.5rem;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      text-align: justify;
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_callforpapers {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      text-align: justify;
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_science {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 1.8rem;
+
+    #aboutajuheading {
+      text-align: left;
+      font-size: 1.5rem;
+      width: 100%;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      font-size: large;
+      margin-top: 0.7rem;
+      ul {
+        list-style: disc;
+      }
+    }
+  }
+}
+
+#aboutbox_electronicsandcommunication {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_electronicsandcommunication {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_computerengg {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_civilengg {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_mechanicalengg {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+#aboutbox_guidelines {
+  width: 100%;
+  background-color: rgb(252, 252, 252);
+  margin: auto;
+  .about {
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    #aboutajuheading {
+      font-size: 1.5rem;
+      color: rgb(228, 57, 57);
+    }
+    #aboutajudetails {
+      text-align: justify;
+      font-size: large;
+      margin-top: 0.7rem;
+    }
+  }
+}
+
+// SCOPE_PAGE_ENDS_HERE
+
+// COMMITTEE _PAGE_STARTS_HERE
+
+// .conveners{
+//   // border: 2PX solid black;
+//   width: 100%;
+//   margin:auto;
+//   margin-left:.025rem ;
+//   // background-color: #ff6325;
+//   border-radius: 1rem;
+//   box-shadow: 0px -5px 4px 0px rgba(243, 169, 9, 0.952);
+//   display: flex;
+//   justify-content: center;
+// }
+// // .button_convenor{
+// //   margin-top: 1.5rem;
+// // }
+
+// .conveners_pad{
+//   // padding-left:5 rem;
+//   // border: 2PX solid black;
+//   // background-color: white;
+//   width: 20%;
+//   text-align: justify;
+// }
+
+
+// REGISTRATION_PAGE
+// .table{
+//   border:2px solid red;
+//   width: 50%;
+// }
+.table_container{
+  // float: left;
+  width: 100%;
+  // border: 2px solid black;
+  $table-cell-padding-y-sm:.25rem;  
+  $table-cell-padding-x-sm:.25rem;
+}
+.imp_date{
+  margin-top: 4rem;
+}
+
+// .payment_box{
+//   width: 80%;
+// }
+
+// ON_TOP_BUTTON
+
+.on_top_button{
+  border: 2px solid black;
+  display: block;
+}
+
+.brochure{
+  // border: 2px solid black;
+  margin-bottom: 2rem ;
+  float:left;
+}
